@@ -5,7 +5,7 @@
   "main": "dist/tokens.js",
   "files": [
     "dist",
-    "properties"
+    "src"
   ],
   "devDependencies": {
     "prettier": "^2.2.1",

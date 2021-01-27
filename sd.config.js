@@ -11,7 +11,7 @@ module.exports = {
       parse: ({ contents, filePath }) => yaml.parse(contents),
     },
   ],
-  source: [`properties/**/*.yaml`],
+  source: [`src/**/*.yaml`],
   platforms: {
     css: {
       transformGroup: 'css',
