@@ -16,6 +16,7 @@ module.exports = {
     css: {
       transformGroup: 'css',
       buildPath: 'dist/',
+      prefix: 'token',
       files: [
         {
           destination: 'variables.css',
