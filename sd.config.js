@@ -15,7 +15,7 @@ module.exports = {
   platforms: {
     css: {
       transformGroup: 'css',
-      buildPath: 'build/',
+      buildPath: 'dist/',
       files: [
         {
           destination: 'variables.css',
@@ -25,7 +25,7 @@ module.exports = {
     },
     js: {
       transformGroup: 'js',
-      buildPath: 'build/',
+      buildPath: 'dist/',
       files: [
         {
           destination: 'tokens.js',
