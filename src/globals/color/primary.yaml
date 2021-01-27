@@ -1,0 +1,20 @@
+# Primary shades fill out the shades available in the imagotype
+
+color:
+  primary:
+    '100':
+      value: '{color.imagotype.white.value}'
+    '200':
+      value: '#D9F7F6' # H:178 S:12 B:97
+    '300':
+      value: '#B1F2EF' # H:177 S:27 B:95
+    '400':
+      value: '{color.imagotype.light.value}'
+    '500':
+      value: '#009FA1' # H:181 S:100 B:63
+    '600':
+      value: '{color.imagotype.dark.value}'
+    '700':
+      value: '#0C4A47' # H:177 S:84 B:29
+    '800':
+      value: '{color.imagotype.black.value}'

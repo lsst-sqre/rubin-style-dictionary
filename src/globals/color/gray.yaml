@@ -1,0 +1,14 @@
+color:
+  gray:
+    '000':
+      value: '#FFFFFF'
+      comment: 'Pure white.'
+    '100':
+      value: '#DCE0E3' # H:206 S:3 B:89
+    '500':
+      value: '#6A6E6E' # H:180 S:4 B:43
+    '800':
+      value: '#1F2121' # H:180 S:6 B:13
+    '900':
+      value: '#000000'
+      comment: 'Pure black.'
