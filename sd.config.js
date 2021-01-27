@@ -19,7 +19,7 @@ module.exports = {
       prefix: 'token',
       files: [
         {
-          destination: 'variables.css',
+          destination: 'tokens.css',
           format: 'css/variables',
         },
       ],
