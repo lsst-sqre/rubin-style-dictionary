@@ -32,6 +32,9 @@ jobs:
         with:
           registry-url: https://npm.pkg.github.com/
 
+      - name: Install
+        run: npm install .
+
       - name: Publish to GitHub Packages
         run: npm publish # also builds using prepublishOnly in package.json
         env:
