@@ -1,8 +1,12 @@
 {
-  "name": "rubin-style-dictionary",
-  "version": "0.1.0",
+  "name": "@lsst-sqre/rubin-style-dictionary",
+  "version": "0.1.0-beta+1",
   "description": "A style dictionary that encodes design tokens from the Rubin Visual Identity.",
   "main": "build/tokens.js",
+  "files": [
+    "build",
+    "properties"
+  ],
   "devDependencies": {
     "prettier": "^2.2.1",
     "style-dictionary": "^3.0.0-rc.2",
@@ -13,6 +17,7 @@
     "clean": "./node_modules/style-dictionary/bin/style-dictionary build --config ./sd.config.js",
     "format": "prettier --write \"**/*.{md,js,json,css,graphql,yaml}\"",
     "format:check": "prettier --check \"**/*.{md,js,json,css,graphql,yaml}\"",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
