@@ -2,7 +2,7 @@
   "name": "rubin-style-dictionary",
   "version": "0.1.0",
   "description": "A style dictionary that encodes design tokens from the Rubin Visual Identity.",
-  "main": "index.js",
+  "main": "build/tokens.js",
   "devDependencies": {
     "prettier": "^2.2.1",
     "style-dictionary": "^3.0.0-rc.2",

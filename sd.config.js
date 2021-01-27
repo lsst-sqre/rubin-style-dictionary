@@ -23,5 +23,15 @@ module.exports = {
         },
       ],
     },
+    js: {
+      transformGroup: 'js',
+      buildPath: 'build/',
+      files: [
+        {
+          destination: 'tokens.js',
+          format: 'javascript/es6',
+        },
+      ],
+    },
   },
 };
