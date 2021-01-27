@@ -1,0 +1,14 @@
+color:
+  imagotype:
+    light:
+      value: '#00BABC' # H:181 S:100 B:74
+      comment: 'Light teal in imagotype (graphic element).'
+    dark:
+      value: '#058B8C' # H:180 S:96 B:55
+      comment: 'Dark teal in imagotype (for Observatory wordmark).'
+    black:
+      value: '#313333' # H:180 S:4 B:20
+      comment: 'Dark gray in imagotype.'
+    white:
+      value: '#F5F5F5' # H:180 S:4 B:20
+      comment: 'Imagotype white for dark backgrounds.'
