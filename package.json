@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "description": "A style dictionary that encodes design tokens from the Rubin Visual Identity.",
   "main": "index.js",
-  "dependencies": {
-    "style-dictionary": "^3.0.0-rc.2"
+  "devDependencies": {
+    "style-dictionary": "^3.0.0-rc.2",
+    "yaml": "^1.10.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "build": "./node_modules/style-dictionary/bin/style-dictionary build",
+    "build": "./node_modules/style-dictionary/bin/style-dictionary build --config ./sd.config.js",
+    "clean": "./node_modules/style-dictionary/bin/style-dictionary build --config ./sd.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
