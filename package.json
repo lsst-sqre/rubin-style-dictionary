@@ -13,8 +13,8 @@
     "yaml": "^1.10.0"
   },
   "scripts": {
-    "build": "./node_modules/style-dictionary/bin/style-dictionary build --config ./sd.config.js",
-    "clean": "./node_modules/style-dictionary/bin/style-dictionary build --config ./sd.config.js",
+    "build": "node ./build.js",
+    "clean": "rm -rf dist",
     "format": "prettier --write \"**/*.{md,js,json,css,graphql,yaml}\"",
     "format:check": "prettier --check \"**/*.{md,js,json,css,graphql,yaml}\"",
     "prepublishOnly": "npm run build",
