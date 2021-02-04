@@ -82,7 +82,7 @@ const config = {
     css: {
       transformGroup: 'css',
       buildPath: 'dist/',
-      prefix: 'token',
+      prefix: 'rsd',
       files: [
         {
           destination: 'tokens.css',
@@ -93,7 +93,7 @@ const config = {
     cssDark: {
       transformGroup: 'css',
       buildPath: 'dist/',
-      prefix: 'token',
+      prefix: 'rsd',
       files: [
         {
           destination: 'tokens.dark.css',
