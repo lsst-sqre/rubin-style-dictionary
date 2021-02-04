@@ -1,0 +1,6 @@
+component:
+  # Typography for body text
+  text:
+    color:
+      value: "{color.gray.800.value}"
+      comment: "Body text color"
