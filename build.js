@@ -1,4 +1,5 @@
 const styleDictionary = require('style-dictionary');
+const _ = require('lodash');
 const yaml = require('yaml');
 
 /* From style-dictionary/lib/common/formats.js */
@@ -99,13 +100,76 @@ const CTITransform = {
     if (prop.path[0] === 'component') {
       // When defining component tokens, the key of the token is the relevant CSS property
       // The key of the token is the last element in the path array
-      return propertiesToCTI[prop.path[prop.path.length - 1]];
+      const pathLength = prop.path.length;
+      if (prop.path[pathLength - 2] === 'themed') {
+        // Ignore the themed part of the path
+        return propertiesToCTI[prop.path[prop.path.length - 3]];
+      } else {
+        return propertiesToCTI[prop.path[prop.path.length - 1]];
+      }
     } else {
       // Fallback to the original 'attribute/cti' transformer
       return styleDictionary.transform['attribute/cti'].transformer(prop);
     }
   },
 };
+
+// Custom kebab naming transform that ignore "themed.xyz" from the path
+styleDictionary.registerTransform({
+  name: 'name/rsp/themedKebab',
+  type: 'name',
+  transformer: (prop, options) => {
+    const pathLength = prop.path.length;
+    if (prop.path[pathLength - 2] === 'themed') {
+      return _.kebabCase(
+        [options.prefix].concat(prop.path.slice(0, pathLength - 2)).join(' ')
+      );
+    } else {
+      return _.kebabCase([options.prefix].concat(prop.path).join(' '));
+    }
+  },
+});
+
+// Filter only "dark" theme tokens
+styleDictionary.registerFilter({
+  name: 'isDarkTheme',
+  matcher: (prop) => {
+    const pathLength = prop.path.length;
+    return (
+      pathLength >= 3 &&
+      prop.path[pathLength - 2] === 'themed' &&
+      prop.path[pathLength - 1] === 'dark'
+    );
+  },
+});
+
+// Filter only "light" or unthemed tokens
+styleDictionary.registerFilter({
+  name: 'isDefaultTheme',
+  matcher: (prop) => {
+    const pathLength = prop.path.length;
+    if (prop.path[pathLength - 2] != 'themed') {
+      return true;
+    }
+    if (prop.path[pathLength - 1] === 'light') {
+      return true;
+    } else {
+      return false;
+    }
+  },
+});
+
+styleDictionary.registerTransformGroup({
+  name: 'css/themed',
+  transforms: [
+    'attribute/cti',
+    'name/rsp/themedKebab',
+    'time/seconds',
+    'content/icon',
+    'size/rem',
+    'color/css',
+  ],
+});
 
 const config = {
   parsers: [
@@ -125,24 +189,26 @@ const config = {
   source: [`src/**/*.yaml`],
   platforms: {
     css: {
-      transformGroup: 'css',
+      transformGroup: 'css/themed',
       buildPath: 'dist/',
       prefix: 'rsd',
       files: [
         {
           destination: 'tokens.css',
           format: 'css/variables',
+          filter: 'isDefaultTheme',
         },
       ],
     },
     cssDark: {
-      transformGroup: 'css',
+      transformGroup: 'css/themed',
       buildPath: 'dist/',
       prefix: 'rsd',
       files: [
         {
           destination: 'tokens.dark.css',
           format: 'css/dark',
+          filter: 'isDarkTheme',
         },
       ],
     },
