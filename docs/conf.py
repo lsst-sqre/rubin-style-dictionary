@@ -150,4 +150,7 @@ html_show_sourcelink = False
 rst_epilog = """
 
 .. _style-dictionary: https://amzn.github.io/style-dictionary/
+
+.. |RSD| replace:: Rubin Style Dictionary
+.. |rsd-pkg| replace:: ``@lsst-sqre/rubin-style-dictionary``
 """
