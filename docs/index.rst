@@ -13,3 +13,12 @@ User guide
 .. toctree::
 
    node-package
+
+Token distributions
+===================
+
+.. toctree::
+
+   tokens.css.rst
+   tokens.dark.css.rst
+   tokens.js.rst
