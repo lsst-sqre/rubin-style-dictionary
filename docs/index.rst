@@ -22,3 +22,10 @@ Token distributions
    tokens.css.rst
    tokens.dark.css.rst
    tokens.js.rst
+
+Contributing tokens
+===================
+
+.. toctree::
+
+   organization-overview

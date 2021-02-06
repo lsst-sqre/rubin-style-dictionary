@@ -149,8 +149,17 @@ html_show_sourcelink = False
 # Content that is added to the footer of every page
 rst_epilog = """
 
-.. _style-dictionary: https://amzn.github.io/style-dictionary/
+.. Links
 
+.. _Style Dictionary:
+.. _style-dictionary: https://amzn.github.io/style-dictionary/
+.. _rubin-style-dictionary:
+.. _rubin-style-dictionary repository: https://github.com/lsst-sqre/rubin-style-dictionary
+
+.. Substitutions
+
+.. |SD| replace:: `Style Dictionary`_
 .. |RSD| replace:: Rubin Style Dictionary
 .. |rsd-pkg| replace:: ``@lsst-sqre/rubin-style-dictionary``
+.. |rsd-repo| replace:: `rubin-style-dictionary repository`_
 """
