@@ -9,7 +9,7 @@
   ],
   "devDependencies": {
     "prettier": "^2.2.1",
-    "style-dictionary": "^3.0.0-rc.2",
+    "style-dictionary": "^3.0.0-rc.3",
     "yaml": "^1.10.0"
   },
   "scripts": {
