@@ -1,0 +1,2 @@
+documenteer
+lsst_sphinx_bootstrap_theme
