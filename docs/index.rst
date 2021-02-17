@@ -10,12 +10,16 @@ The design tokens are based on the Visual Identity Manual, with additional deriv
 User guide
 ==========
 
+*Learn how to use the Rubin Style Dictionary in projects.*
+
 .. toctree::
 
    node-package
 
 Token distributions
 ===================
+
+*References for the available token distributions that can be used in CSS and JavaScript projects.*
 
 .. toctree::
 
@@ -26,6 +30,9 @@ Token distributions
 Contributing tokens
 ===================
 
+*Information for contributing tokens and background on this project's infrastructure.*
+
 .. toctree::
 
    organization-overview
+   build-system
