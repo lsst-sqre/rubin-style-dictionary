@@ -8,7 +8,7 @@
     "src"
   ],
   "devDependencies": {
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "prettier": "^2.2.1",
     "style-dictionary": "^3.0.0-rc.4",
     "yaml": "^1.10.0"
