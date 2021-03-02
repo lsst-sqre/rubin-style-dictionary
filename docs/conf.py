@@ -155,6 +155,7 @@ rst_epilog = """
 .. _style-dictionary: https://amzn.github.io/style-dictionary/
 .. _rubin-style-dictionary:
 .. _rubin-style-dictionary repository: https://github.com/lsst-sqre/rubin-style-dictionary
+.. _Visual Identity Manual: https://docushare.lsst.org/docushare/dsweb/Get/Document-37294/20210212%20Visual%20Identity%20Manual%20%e2%80%94V7.pdf
 
 .. Substitutions
 
@@ -162,4 +163,5 @@ rst_epilog = """
 .. |RSD| replace:: Rubin Style Dictionary
 .. |rsd-pkg| replace:: ``@lsst-sqre/rubin-style-dictionary``
 .. |rsd-repo| replace:: `rubin-style-dictionary repository`_
+.. |VIM| replace:: `Visual Identity Manual`_
 """

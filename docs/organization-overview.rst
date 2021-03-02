@@ -48,7 +48,7 @@ This comes up in the context of :ref:`component-design-tokens` where an item mig
 Global design tokens
 ====================
 
-Global design tokens define the essence of of the Rubin design system, and quite often these design tokens are based on the Rubin Visual Identity Manual.
+Global design tokens define the essence of of the Rubin design system, and quite often these design tokens are based on the Rubin |VIM|.
 For example, global design tokens are available for the primary observatory colors, the shades of gray, complementary primary colors, and so on.
 Component design tokens reference these global design tokens to, for example, define the background color of a box as being the primary Rubin teal.
 
