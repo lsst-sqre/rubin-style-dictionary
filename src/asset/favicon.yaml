@@ -1,0 +1,10 @@
+asset:
+  image:
+    favicon:
+      svg:
+        value: 'assets/favicon/rubin-favicon.svg'
+      png:
+        '32px':
+          value: 'assets/favicon/rubin-favicon-transparent-32px.png'
+        '49px':
+          value: 'assets/favicon/rubin-favicon-transparent-49px.png'
