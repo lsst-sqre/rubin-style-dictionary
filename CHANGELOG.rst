@@ -12,6 +12,7 @@ Additionally, these assets are distributed in JSON files as Base 64-encoded stri
 Development dependencies:
 
 - Updated lodash to 4.17.21
+- Updated style-dictionar to 3.0.0-rc.5
 
 0.2.1 (2021-02-17)
 ==================
