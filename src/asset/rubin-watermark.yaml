@@ -1,0 +1,12 @@
+asset:
+  image:
+    rubin-watermark:
+      watermark:
+        png:
+          value: assets/rubin-watermarks/rubin-watermark.png
+      letterhead-watermark:
+        png:
+          value: assets/rubin-watermarks/rubin-letterhead-watermark.png
+      letterhead-watermark-2:
+        png:
+          value: assets/rubin-watermarks/rubin-letterhead-watermark-2.png

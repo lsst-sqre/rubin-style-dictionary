@@ -222,6 +222,45 @@ const config = {
         },
       ],
     },
+    assetsEmbedJson: {
+      transforms: ['attribute/cti', 'name/cti/kebab', 'asset/base64'],
+      buildPath: 'dist/json/',
+      files: [
+        {
+          destination: 'rubin-imagotype-base64.json',
+          format: 'json/flat',
+          filter: {
+            attributes: {
+              category: 'asset',
+              type: 'image',
+              item: 'rubin-imagotype',
+            },
+          },
+        },
+        {
+          destination: 'rubin-favicon-base64.json',
+          format: 'json/flat',
+          filter: {
+            attributes: {
+              category: 'asset',
+              type: 'image',
+              item: 'favicon',
+            },
+          },
+        },
+        {
+          destination: 'rubin-watermark-base64.json',
+          format: 'json/flat',
+          filter: {
+            attributes: {
+              category: 'asset',
+              type: 'image',
+              item: 'rubin-watermark',
+            },
+          },
+        },
+      ],
+    },
   },
 };
 const SD = styleDictionary.extend(config);

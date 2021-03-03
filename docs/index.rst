@@ -7,6 +7,8 @@ Built around `style-dictionary`_, these design tokens are available in a variety
 
 The design tokens are based on the |VIM|, with additional derived design tokens for specific components.
 
+Rubin Style Dictionary is developed on GitHub at https://github.com/lsst-sqre/rubin-style-dictionary.
+
 User guide
 ==========
 
@@ -15,6 +17,7 @@ User guide
 .. toctree::
 
    node-package
+   changes
 
 Token distributions
 ===================
@@ -36,3 +39,10 @@ Contributing tokens
 
    organization-overview
    build-system
+
+Project information
+===================
+
+.. toctree::
+
+   changes
