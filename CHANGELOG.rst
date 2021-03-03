@@ -9,6 +9,10 @@ Added image assets from the Rubin Visual Identity, including imagotypes, favicon
 These files can be imported from the NPM package.
 Additionally, these assets are distributed in JSON files as Base 64-encoded strings.
 
+Development dependencies:
+
+- Updated lodash to 4.17.21
+
 0.2.1 (2021-02-17)
 ==================
 
