@@ -6,7 +6,9 @@ Change log
 ==================
 
 Added image assets from the Rubin Visual Identity, including imagotypes, favicons, and watermarks.
-These files can be imported from the NPM package.
+The imagotypes in this distribution are additionally cropped so that the clearance corresponds to the desired "N" spacing.
+
+These files can be imported from the NPM package as regular static assets.
 Additionally, these assets are distributed in JSON files as Base 64-encoded strings.
 
 Development dependencies:
