@@ -53,14 +53,16 @@ function variablesWithPrefix(prefix, properties, commentStyle) {
     .join('\n');
 }
 
-// Register css/dark custom format that uses a body.dark selector
-// for "dark" mode tokens.
+// Register css/dark custom format for "dark" theme tokens.
+// It supports two selectors:
+// - body.dark (a class selector) compatible with gatsby-plugin-dark-mode
+// - [data-theme='dark'] body (data attribute) compatible with next-themes
 styleDictionary.registerFormat({
   name: 'css/dark',
   formatter: function (dictionary) {
     return (
       fileHeader(this.options) +
-      'body.dark {\n' +
+      "body.dark, [data-theme='dark'] body {\n" +
       variablesWithPrefix('  --', dictionary.allProperties) +
       '\n}\n'
     );
