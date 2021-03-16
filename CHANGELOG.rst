@@ -5,16 +5,18 @@ Change log
 0.3.0 (unreleased)
 ==================
 
-Added image assets from the Rubin Visual Identity, including imagotypes, favicons, watermarks, and partner logos.
+- Added image assets from the Rubin Visual Identity, including imagotypes, favicons, watermarks, and partner logos.
 The imagotypes in this distribution are additionally cropped so that the clearance corresponds to the desired "N" spacing.
 
-These files can be imported from the NPM package as regular static assets.
-Additionally, these assets are distributed in JSON files as Base 64-encoded strings.
+  These files can be imported from the NPM package as regular static assets.
+  Additionally, these assets are distributed in JSON files as Base 64-encoded strings.
 
-Development dependencies:
+- Support for theming with next-themes.
+
+- Development dependencies:
 
 - Updated lodash to 4.17.21
-- Updated style-dictionary to 3.0.0-rc.5
+- Updated style-dictionary to 3.0.0-rc.6
 
 0.2.1 (2021-02-17)
 ==================
