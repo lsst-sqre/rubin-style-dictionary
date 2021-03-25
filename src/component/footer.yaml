@@ -1,0 +1,9 @@
+component:
+  # Page footer component
+  footer:
+    backgroundColor:
+      themed:
+        light:
+          value: '{color.primary.100.value}'
+        dark:
+          value: '{color.primary.700.value}'

@@ -1,0 +1,12 @@
+component:
+  # Page, for the main content
+  page:
+    background:
+      color:
+        themed:
+          light:
+            value: '{color.gray.000.value}'
+            comment: 'Page background color'
+          dark:
+            value: '{color.gray.800.value}'
+            comment: 'Page background color in dark theme'

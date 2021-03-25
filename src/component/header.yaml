@@ -1,0 +1,37 @@
+component:
+  # Page header component, including primary navigation
+  header:
+    background:
+      color:
+        value: '{color.gray.800.value}'
+        comment: 'Header background color.'
+    nav:
+      text:
+        color:
+          value: '{color.gray.000.value}'
+        hover:
+          color:
+            value: '{color.primary.400.value}'
+      menulist:
+        text:
+          color:
+            themed:
+              light:
+                value: '{component.text.color.themed.light.value}'
+              dark:
+                value: '{color.gray.000.value}'
+        background:
+          color:
+            themed:
+              light:
+                value: '{color.gray.000.value}'
+              dark:
+                value: '{color.primary.600.value}'
+        selected:
+          background:
+            color:
+              themed:
+                light:
+                  value: '{color.primary.600.value}'
+                dark:
+                  value: '{color.primary.700.value}'

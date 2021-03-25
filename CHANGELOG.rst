@@ -13,6 +13,8 @@ The imagotypes in this distribution are additionally cropped so that the clearan
 
 - Support for theming with next-themes.
 
+- Initial design tokens from components originating in the Squareone application (https://github.com/lsst-sqre/rsp-squareone).
+
 - Development dependencies:
 
 - Updated lodash to 4.17.21
