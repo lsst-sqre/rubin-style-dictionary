@@ -3,6 +3,11 @@ tokens.dark.css
 ###############
 
 This CSS file contains tokens, as CSS custom properties, corresponding only to the ``dark`` theme.
+The CSS selectors in this file support both Gatsby and Next.js theme patterns:
+
+- ``body.dark`` class selector for Gatsby gatsby-plugin-dark-mode_ apps.
+- ``[data-theme='dark'] body`` selector for Next.js and next-themes_\ -based apps.
+
 Since these CSS custom properties are scoped with the ``body.dark`` selector, and shadow the names of default or ``light`` themed tokens, these tokens become active when the ``dark`` class is applied to the body.
 See :doc:`tokens.css` for the tokens corresponding to the light theme and to unthemed tokens.
 

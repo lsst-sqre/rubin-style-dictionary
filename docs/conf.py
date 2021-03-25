@@ -156,6 +156,8 @@ rst_epilog = """
 .. _rubin-style-dictionary:
 .. _rubin-style-dictionary repository: https://github.com/lsst-sqre/rubin-style-dictionary
 .. _Visual Identity Manual: https://docushare.lsst.org/docushare/dsweb/Get/Document-37294/20210212%20Visual%20Identity%20Manual%20%e2%80%94V7.pdf
+.. _gatsby-plugin-dark-mode: https://www.gatsbyjs.com/plugins/gatsby-plugin-dark-mode/
+.. _next-themes: https://github.com/pacocoursey/next-themes
 
 .. Substitutions
 
