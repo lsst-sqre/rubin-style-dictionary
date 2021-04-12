@@ -15,10 +15,12 @@ The imagotypes in this distribution are additionally cropped so that the clearan
 
 - Initial design tokens from components originating in the Squareone application (https://github.com/lsst-sqre/rsp-squareone).
 
+- Fixed ``color.green.500`` to be the correct color from the Visual Identity Manual (previously it was the same as ``color.purple.500``).
+
 - Development dependencies:
 
 - Updated lodash to 4.17.21
-- Updated style-dictionary to 3.0.0-rc.6
+- Updated style-dictionary to 3.0.0-rc.8
 
 0.2.1 (2021-02-17)
 ==================
