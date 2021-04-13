@@ -1,0 +1,25 @@
+asset:
+  image:
+    rubin:
+      imagotype:
+        intermediate:
+          color-on-black:
+            png:
+              value: assets/rubin-imagotype-intermediate/rubin-imagotype-intermediate-color-on-black.png
+            svg:
+              value: assets/rubin-imagotype-intermediate/rubin-imagotype-intermediate-color-on-black.svg
+          gray-on-black:
+            png:
+              value: assets/rubin-imagotype-intermediate/rubin-imagotype-intermediate-gray-on-black.png
+            svg:
+              value: assets/rubin-imagotype-intermediate/rubin-imagotype-intermediate-gray-on-black.svg
+          color-on-white:
+            png:
+              value: assets/rubin-imagotype-intermediate/rubin-imagotype-intermediate-color-on-white.png
+            svg:
+              value: assets/rubin-imagotype-intermediate/rubin-imagotype-intermediate-color-on-white.svg
+          gray-on-white:
+            png:
+              value: assets/rubin-imagotype-intermediate/rubin-imagotype-intermediate-gray-on-white.png
+            svg:
+              value: assets/rubin-imagotype-intermediate/rubin-imagotype-intermediate-gray-on-white.svg
