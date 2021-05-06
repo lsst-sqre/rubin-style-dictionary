@@ -2,7 +2,7 @@
 Change log
 ##########
 
-0.3.0 (unreleased)
+0.3.0 (2021-05-06)
 ==================
 
 - Added image assets from the Rubin Visual Identity, including imagotypes (full scale, intermediate, and favicon), watermarks, and partner logos.
