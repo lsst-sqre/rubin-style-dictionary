@@ -22,4 +22,5 @@ asset:
         svg:
           value: assets/rubin-imagotype/rubin-imagotype-gray-on-white.svg
       email:
-        png: value assets/rubin-imagotype/rubin-imagotype-email.png
+        png:
+          value: assets/rubin-imagotype/rubin-imagotype-email.png

@@ -2,11 +2,11 @@
 Change log
 ##########
 
-0.3.0 (unreleased)
+0.3.0 (2021-05-06)
 ==================
 
-- Added image assets from the Rubin Visual Identity, including imagotypes, favicons, watermarks, and partner logos.
-The imagotypes in this distribution are additionally cropped so that the clearance corresponds to the desired "N" spacing.
+- Added image assets from the Rubin Visual Identity, including imagotypes (full scale, intermediate, and favicon), watermarks, and partner logos.
+The full and intermediate-scale imagotypes in this distribution are additionally cropped so that the clearance corresponds to the desired "N" spacing.
 
   These files can be imported from the NPM package as regular static assets.
   Additionally, these assets are distributed in JSON files as Base 64-encoded strings.
