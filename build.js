@@ -136,6 +136,13 @@ styleDictionary.registerTransform({
 styleDictionary.registerFilter({
   name: 'isDarkTheme',
   matcher: (prop) => {
+    // Ignore  assets and content
+    if (prop.filePath.startsWith('src/asset')) {
+      return false;
+    }
+    if (prop.filePath.startsWith('src/content')) {
+      return false;
+    }
     const pathLength = prop.path.length;
     return (
       pathLength >= 3 &&
@@ -149,10 +156,19 @@ styleDictionary.registerFilter({
 styleDictionary.registerFilter({
   name: 'isDefaultTheme',
   matcher: (prop) => {
+    // Ignore  assets and content
+    if (prop.filePath.startsWith('src/asset')) {
+      return false;
+    }
+    if (prop.filePath.startsWith('src/content')) {
+      return false;
+    }
     const pathLength = prop.path.length;
+    // Allow unthemed
     if (prop.path[pathLength - 2] != 'themed') {
       return true;
     }
+    // Allow light themed
     if (prop.path[pathLength - 1] === 'light') {
       return true;
     } else {
