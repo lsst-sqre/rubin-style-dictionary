@@ -10,7 +10,7 @@
   ],
   "devDependencies": {
     "lodash": "^4.17.20",
-    "prettier": "^2.2.1",
+    "prettier": "^2.4.1",
     "style-dictionary": "^3.0.0-rc.8",
     "yaml": "^1.10.2"
   },
