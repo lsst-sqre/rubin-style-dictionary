@@ -1,6 +1,6 @@
 {
   "name": "@lsst-sqre/rubin-style-dictionary",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A style dictionary that encodes design tokens from the Rubin Visual Identity.",
   "main": "dist/tokens.js",
   "files": [
