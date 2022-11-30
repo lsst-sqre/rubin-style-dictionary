@@ -24,6 +24,7 @@ content:
             Observatory is operated by NSF's NOIRLab and SLAC.
           </p>
 
+
     operations:
       html:
         comment: Operations-era footer text (HTML format).
