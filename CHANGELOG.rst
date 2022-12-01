@@ -2,6 +2,14 @@
 Change log
 ##########
 
+0.4.0 (2022-12-01)
+==================
+
+Added "crop" variants of all full-size and intermediate-size Rubin imagotype assets.
+For example, ``assets/rubin-imagotype/rubin-imagotype-color-on-white-crop.svg`` is a cropped version of ``assets/rubin-imagotype/rubin-imagotype-color-on-white.svg``.
+The original imagotypes included a default margin.
+These new "crop" variants are cropped right to the art, so that the imagotype can align with other content in CSS/HTML layouts.
+
 0.3.0 (2021-05-06)
 ==================
 
