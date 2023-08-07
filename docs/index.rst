@@ -2,6 +2,10 @@
 Rubin Style Dictionary
 ######################
 
+.. important::
+
+   **Rubin Style Dictionary has moved to Squareone!.** You can find the code at https://github.com/lsst-sqre/squareone/tree/main/packages/rubin-style-dictionary and the docs at https://squareone.lsst.io/packages/rubin-style-dictionary/index.html.
+
 The |RSD| provides design tokens that can be used in Rubin Observatory design projects.
 Built around `style-dictionary`_, these design tokens are available in a variety of formats that are ready to use in projects, such as CSS variables, JSON, and so on.
 
