@@ -2,6 +2,11 @@
 Change log
 ##########
 
+2023-08-07
+==========
+
+Rubin Style Dictionary is now hosted out of the Squareone monorepo. See https://github.com/lsst-sqre/squareone for code and https://squareone.lsst.io for docs.
+
 0.4.0 (2022-12-01)
 ==================
 
